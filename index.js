@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}))
 // cors 
 
 app.use(cors({
-  origin: 'http://localhost:3000', 
+  origin: 'https://edgistify-lake.vercel.app/', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'], 
 }));
