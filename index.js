@@ -21,6 +21,9 @@ app.use(cors({
 
 app.use(bodyParser.json());
 
+// app.get('/', (req, res) => {
+//   res.send('Hello World');
+// });
 // Routes
 app.use("/auth", authRoutes);
 app.use("/product",productRoutes);
