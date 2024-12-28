@@ -11,6 +11,8 @@ dotenv.config();
 const app = express();
 app.use(express.urlencoded({extended:true}))
 
+// cors 
+
 app.use(cors({
   origin: 'http://localhost:3000', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
